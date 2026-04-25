@@ -1,1 +1,1 @@
-{\n  "name": "power-bit",\n  "version": "1.0.0",\n  "dependencies": {\n    "express": "^4.17.1" ,\n    "nodemon": "^2.0.0"\n  },\n  "scripts": {\n    "start": "node index.js",\n    "dev": "nodemon index.js"\n  }\n}
+{\n  "name": "your-package-name",\n  "version": "1.0.0",\n  "description": "Description of your project",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "dependency-name": "^1.0.0"\n  }\n}
