@@ -1,11 +1,17 @@
-# render.yaml
-
 services:
-  - type: staticSite
-    name: my-static-site
-    rootDir: .
-    buildCommand: npm run build
-    publishDir: build
-    env:
-      NODE_VERSION: 14
+  - type: webService
+    name: power-bit-windows11
+    runtime: node
+    runtimeVersion: 18
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
     autoDeploy: true
+    maxInstances: 1
+    minInstances: 1
+    healthCheckPath: /
+    healthCheckInterval: 10
