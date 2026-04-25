@@ -1,1 +1,1 @@
-{\n  "name": "your-package-name",\n  "version": "1.0.0",\n  "description": "Description of your project",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "dependency-name": "^1.0.0"\n  }\n}
+{"name":"power-bit","version":"1.0.0","description":"Windows 11 Hyper-Droid","main":"server.js","scripts":{"start":"node server.js","dev":"nodemon server.js"},"dependencies":{"express":"^4.17.1"},"devDependencies":{"nodemon":"^2.0.0"}}
