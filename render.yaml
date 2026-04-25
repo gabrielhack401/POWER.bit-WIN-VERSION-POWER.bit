@@ -1,0 +1,11 @@
+# render.yaml
+
+services:
+  - type: staticSite
+    name: my-static-site
+    rootDir: .
+    buildCommand: npm run build
+    publishDir: build
+    env:
+      NODE_VERSION: 14
+    autoDeploy: true
